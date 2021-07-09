@@ -1,0 +1,382 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+}
+    body{
+        height: auto;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .container{
+    width: 70%;
+    margin: 0px auto;
+    }
+    .container:after{
+    content: '';display: block;
+    clear: both;
+    }
+    .banner{
+    width: 100%;
+    overflow: hidden;
+    height: 700px;
+    background: url("Aset/Hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    .atas{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    z-index: 1000;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: rgba(240, 240, 240, 0.9);
+    }
+    .atas .logo{
+        margin: 10px 20px;
+    }
+    .atas .logo span{
+        color: #fa1111;
+    }
+    .atas ul{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .atas ul li{
+        list-style: none;
+        margin: 9px 25px;
+    }
+    .atas ul li a{
+        font-family:monospace;
+        text-decoration: none;
+        color: #000;
+
+    }
+    .atas ul li a:hover{
+        color: #fa1111;
+        padding-bottom: 3px;
+        border-bottom: solid 2px;
+    }
+    .atas .uad{
+        margin: 8px 20px;
+    }
+    .atas .uad a{
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 800;
+        font-family: serif;
+        color: rgb(250, 108, 42);
+    }
+    .banner{
+        width: 100%;
+    }
+    .banner .test{
+    width: auto;
+    padding-top: 200px;
+    height: auto;
+    text-align: center;
+    }
+    .test h2{
+    color: #fff;
+    font-weight: 600;
+    font-family: Arial;
+    margin-top: 10px;
+    margin: auto;
+    font-size: 60px;
+    }
+    .test small{
+    color: #fff;
+    }
+    .banner a button{
+    border: none;
+    margin-top: 20px;
+    padding: 10px 19px;
+    border-radius: 30px;
+    font-size: 8px;
+    font-weight: 100;
+    transition: 1s;
+    background-color: #e0e0e0;
+    }
+    .banner a button:hover{
+    background-color: #fa1111;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px -3px 3px 0 rgba(0,0,0,0.5);
+    transition: 0.3s ease;
+    transform: translateY(7px);
+    }
+    #about{width: 100%;
+    height: 610px;
+    }
+    .about{
+    width: 80%;
+    padding: 50px 10%;
+    height: 300px;
+    align-items: center;
+    }
+    .about h2{
+    color: #fa1111;
+    font-weight: bolder;
+    font-family: inherit;
+    font-size: 40px;
+    }
+    .about table{
+        height: auto;
+        margin: auto;
+    }
+    .about span{
+    color: black;
+    font-family:cursive;
+    }
+    .partner{
+    width: 100%;
+    height: 500px;
+    padding-left: 2.5%;
+    }
+    section .contain{
+    width: 90%;
+    height: 500px;
+    justify-content: center;
+    justify-content: center;
+    margin: 30px 20px;
+    }
+    section .contain .kotakk{
+        display: flex;
+        justify-content: space-around;
+    }
+    section .contain .kotakk .boxx{
+    width: 18.5%;
+    height: 250px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 60px;
+    box-sizing: border-box;
+    }
+    .boxx a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bolder;
+    width: 100%;
+    }
+    .contain .kotakk .boxx .fot img{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    }
+    .contain .boxx .fot{
+    width: 165px;
+    height: 160px;
+    border: solid 0.6px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+    }
+    section.service{
+    padding: 50px 0;
+    height: 300px;
+    width: 100%;
+    background-color: rgba(230, 231, 232,.5);
+    }
+    section h3{
+    text-align: center;
+    padding: 20px 0;
+    color: #fa1111;
+    font-size: 40px;
+    margin-bottom: 20px;
+    }
+    section span{
+    color: black;
+    font-family: cursive;
+    font-size: 33px;
+    }
+    section.service .container{
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .box{
+    color: #fa1111;
+    margin: auto;
+    }
+    .box:after {
+    content: '';
+    display: block;
+    clear: both;
+    }
+    .box .col-4{
+        margin: 0 30px;
+    }
+    .icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: 1px solid;
+    text-align-last: center;
+    line-height: 70px;
+    font-size: 20px;
+    margin: 0 auto;
+    }
+    .box .col-4 h4{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 13px;
+    }
+    .kolom{
+    width: 850px;
+    height: 60px;
+    color: white;
+    padding-left: 4%;
+    }
+    .kolom-satu{
+    width: 180px;
+    color: white;
+    font-weight: 600;
+    padding-left: 4%;
+    }
+    #contact{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 610px;
+    background-color: #2b2a33;
+    }
+    .form{
+    width: 46%;
+    right: 0;
+    height: 490px;
+    padding: 60px 20px;
+    }
+    .form .in{
+    margin-bottom: 50px;
+    }
+    .form input {outline: none;
+    width: 90%;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px;
+    font-weight: 300;
+    color: white;
+    font-size: 17px;
+    box-shadow: none;
+    }
+    .form input::placeholder{
+    color: #fff;
+    margin-bottom: 20px;
+    }
+    form textarea{
+    outline: none;
+    border: none;
+    color: #fff;
+    background: transparent;
+    border-bottom: solid 1px white;
+    width: 90%;
+    }
+    .form textarea::placeholder{
+    color: #fff;
+    }
+    .form input[type="submit"]{
+    width: 100px;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+    font-family: serif;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    }
+    .form input[type="submit"]:hover{
+    background-color: #fa1111;
+    color: white;
+    }
+    .form h2{
+    color: #fa1111;
+    font-size: 30px;
+    font-family: inherit;
+    }
+    .form span{
+    color: white;
+    font-family: inherit;}
+    .cont{
+    width: 45%;
+    border-left: solid 1px #fa1111;
+    height: auto;
+    }
+    .cont h3{
+        color: #fa1111;
+    text-align: center;
+    padding-top: 70px;
+    font-size: 30px;
+    }
+    .cont span{
+        color: #fa1111;
+        color: #fff;
+        font-family: cursive;
+    }
+    .map{
+        width: 100%;
+    }
+    .map iframe{
+        margin: 0 50%;
+        transform: translateX(-50%);
+    }
+    .box{
+        display: flex;
+    }
+    .box .col-5{
+    width: 25%;
+    padding: 20px;
+    font-size: 50%;
+    margin-top: 30px;
+    color: white;
+    display: inline-block;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    text-align: center;
+    }
+    .box .col-5:hover{
+    color: #fa1111;
+    }
+    .kir{
+    margin-right: 2%;
+    margin-top: 20px;
+    text-align: center;
+    }
+    .kir ul li{
+    width: auto;
+    height: auto;
+    list-style: none;
+    margin-right: 40px;
+    margin-top: 30px;
+    }
+    .kir ul li a{
+    text-decoration: none;
+    font-size: 50px; font-weight: bolder;
+    color: white;
+    }
+    .kir ul li a:hover{
+    color: #fa1111;
+    transition: 0.5s ease;}
+    footer .foot{
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    background-color: black;
+    }
+    .foot{
+    padding-top: 16px;
+    }
+    .foot small{
+    color: white;
+    margin: auto;
+    }
