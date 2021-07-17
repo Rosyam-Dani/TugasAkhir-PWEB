@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&family=Montserrat:ital,wght@0,200;1,200&family=Poppins:ital,wght@0,200;1,100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Inter;
+}
+.container{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    height: auto;
+    padding: 50px 0;
+}
+.container .back{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 5px 0;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .back span{
+    cursor: pointer;
+}
+.container .back span:nth-child(1){
+    width: 17px;
+    transform: translateY(-5px);
+    height: 5px;
+    transform: rotate(155deg);
+    background-color: black;
+}
+.container .back span:nth-child(3){
+    width: 17px;
+    height: 5px;
+    transform: rotate(35deg);
+    background-color: black;
+}
+.container .back span:nth-child(2){
+    width: 25px;
+    height: 5px;
+    transform: translateX(3px);
+    background-color: black;
+}
+.container .table{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.container .table table{
+    width: 100%;
+    text-align: left;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    padding-bottom: 10px;
+    border-bottom: solid 6px rgb(0, 162, 255);
+}
+.container .table table td:nth-child(1){
+    width: 2px;
+}
+.container .table table th, .container .table table td{
+    padding: 15px 30px;
+}
+.container .table table tr:nth-child(1){
+    height: 30px;
+    background-color: rgb(0, 162, 255);
+}
+.container .table table td img{
+    width: 150px;
+    height: 150px;
+}
